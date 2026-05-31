@@ -1,4 +1,4 @@
-# #Rock Paper Scissor
+# Rock Paper Scissor
 
 import random
 print("=== Rock Paper Scissor ===")
@@ -21,7 +21,7 @@ else:
     print("computer win!!! and You lose...")
 
 
-#Guess the number
+# Guess the number
 
 import random
 target_no=random.randint(1,100)
