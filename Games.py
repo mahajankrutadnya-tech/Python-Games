@@ -1,24 +1,24 @@
 # #Rock Paper Scissor
 
-# import random
-# print("=== Rock Paper Scissor ===")
-# choices=["rock","paper","scissor"]
+import random
+print("=== Rock Paper Scissor ===")
+choices=["rock","paper","scissor"]
 
-# userchoice=input("Enter the rock,paper or scissor:")
+userchoice=input("Enter the rock,paper or scissor:")
 
-# computer=random.choice(choices)
-# print("computer :",computer)
+computer=random.choice(choices)
+print("computer :",computer)
 
-# if computer==userchoice:
-#     print("Result : Draw")
-# elif computer=="scissor" and userchoice=="rock":
-#     print("You win!!!")
-# elif computer=="rock" and userchoice=="paper":
-#     print("You win!!!")
-# elif computer=="paper" and userchoice=="scissor":
-#     print("You win!!!")
-# else:
-#     print("computer win!!! and You lose...")
+if computer==userchoice:
+    print("Result : Draw")
+elif computer=="scissor" and userchoice=="rock":
+    print("You win!!!")
+elif computer=="rock" and userchoice=="paper":
+    print("You win!!!")
+elif computer=="paper" and userchoice=="scissor":
+    print("You win!!!")
+else:
+    print("computer win!!! and You lose...")
 
 
 #Guess the number
